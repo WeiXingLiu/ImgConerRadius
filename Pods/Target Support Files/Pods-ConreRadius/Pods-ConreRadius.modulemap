@@ -1,0 +1,6 @@
+framework module Pods_ConreRadius {
+  umbrella header "Pods-ConreRadius-umbrella.h"
+
+  export *
+  module * { export * }
+}

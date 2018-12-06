@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB3B5379C2296C65F1769AA /* Pods_ConreRadius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE13874E0E41ED92C5C7E7D /* Pods_ConreRadius.framework */; };
+		7A0611A621B8CB0C00029DCA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0611A521B8CB0C00029DCA /* TableViewCell.m */; };
+		7A0611AB21B8CC5B00029DCA /* example3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0611A721B8CC5A00029DCA /* example3.jpg */; };
+		7A0611AC21B8CC5B00029DCA /* example1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0611A821B8CC5A00029DCA /* example1.jpg */; };
+		7A0611AD21B8CC5B00029DCA /* example4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0611A921B8CC5A00029DCA /* example4.jpg */; };
+		7A0611AE21B8CC5B00029DCA /* example2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0611AA21B8CC5B00029DCA /* example2.jpg */; };
 		7A1BDCFF21B7AAFA00068F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDCFE21B7AAFA00068F8D /* AppDelegate.m */; };
 		7A1BDD0221B7AAFA00068F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD0121B7AAFA00068F8D /* ViewController.m */; };
 		7A1BDD0521B7AAFA00068F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BDD0321B7AAFA00068F8D /* Main.storyboard */; };
@@ -15,6 +21,9 @@
 		7A1BDD0D21B7AAFC00068F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD0C21B7AAFC00068F8D /* main.m */; };
 		7A1BDD1721B7AAFC00068F8D /* ConreRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD1621B7AAFC00068F8D /* ConreRadiusTests.m */; };
 		7A1BDD2221B7AAFC00068F8D /* ConreRadiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD2121B7AAFC00068F8D /* ConreRadiusUITests.m */; };
+		7A1BDD3121B7AB1E00068F8D /* UIImageView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD3021B7AB1E00068F8D /* UIImageView+Radius.m */; };
+		7A1BDD3421B7AED700068F8D /* CreateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BDD3321B7AED700068F8D /* CreateHelper.m */; };
+		7A1BDD3621B7B0C300068F8D /* APP ICON doctor-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BDD3521B7B0C200068F8D /* APP ICON doctor-60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00689C51CEAF14DB97FAF0EE /* Pods-ConreRadius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConreRadius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConreRadius/Pods-ConreRadius.debug.xcconfig"; sourceTree = "<group>"; };
+		5817EB45D5593FA2CB837116 /* Pods-ConreRadius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConreRadius.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConreRadius/Pods-ConreRadius.release.xcconfig"; sourceTree = "<group>"; };
+		6FE13874E0E41ED92C5C7E7D /* Pods_ConreRadius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConreRadius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0611A421B8CB0C00029DCA /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		7A0611A521B8CB0C00029DCA /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		7A0611A721B8CC5A00029DCA /* example3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example3.jpg; sourceTree = "<group>"; };
+		7A0611A821B8CC5A00029DCA /* example1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example1.jpg; sourceTree = "<group>"; };
+		7A0611A921B8CC5A00029DCA /* example4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example4.jpg; sourceTree = "<group>"; };
+		7A0611AA21B8CC5B00029DCA /* example2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example2.jpg; sourceTree = "<group>"; };
 		7A1BDCFA21B7AAFA00068F8D /* ConreRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConreRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1BDCFD21B7AAFA00068F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A1BDCFE21B7AAFA00068F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +69,11 @@
 		7A1BDD1D21B7AAFC00068F8D /* ConreRadiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConreRadiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1BDD2121B7AAFC00068F8D /* ConreRadiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConreRadiusUITests.m; sourceTree = "<group>"; };
 		7A1BDD2321B7AAFC00068F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1BDD2F21B7AB1E00068F8D /* UIImageView+Radius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Radius.h"; sourceTree = "<group>"; };
+		7A1BDD3021B7AB1E00068F8D /* UIImageView+Radius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Radius.m"; sourceTree = "<group>"; };
+		7A1BDD3221B7AED700068F8D /* CreateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateHelper.h; sourceTree = "<group>"; };
+		7A1BDD3321B7AED700068F8D /* CreateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateHelper.m; sourceTree = "<group>"; };
+		7A1BDD3521B7B0C200068F8D /* APP ICON doctor-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP ICON doctor-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB3B5379C2296C65F1769AA /* Pods_ConreRadius.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28FB712612463EB41C302AAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FE13874E0E41ED92C5C7E7D /* Pods_ConreRadius.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AFADA04BF3656358E29F7C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00689C51CEAF14DB97FAF0EE /* Pods-ConreRadius.debug.xcconfig */,
+				5817EB45D5593FA2CB837116 /* Pods-ConreRadius.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A1BDCF121B7AAFA00068F8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				7A1BDD1521B7AAFC00068F8D /* ConreRadiusTests */,
 				7A1BDD2021B7AAFC00068F8D /* ConreRadiusUITests */,
 				7A1BDCFB21B7AAFA00068F8D /* Products */,
+				4AFADA04BF3656358E29F7C4 /* Pods */,
+				28FB712612463EB41C302AAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +144,21 @@
 		7A1BDCFC21B7AAFA00068F8D /* ConreRadius */ = {
 			isa = PBXGroup;
 			children = (
+				7A1BDD3521B7B0C200068F8D /* APP ICON doctor-60@2x.png */,
+				7A0611A821B8CC5A00029DCA /* example1.jpg */,
+				7A0611AA21B8CC5B00029DCA /* example2.jpg */,
+				7A0611A721B8CC5A00029DCA /* example3.jpg */,
+				7A0611A921B8CC5A00029DCA /* example4.jpg */,
 				7A1BDCFD21B7AAFA00068F8D /* AppDelegate.h */,
 				7A1BDCFE21B7AAFA00068F8D /* AppDelegate.m */,
 				7A1BDD0021B7AAFA00068F8D /* ViewController.h */,
 				7A1BDD0121B7AAFA00068F8D /* ViewController.m */,
+				7A0611A421B8CB0C00029DCA /* TableViewCell.h */,
+				7A0611A521B8CB0C00029DCA /* TableViewCell.m */,
+				7A1BDD2F21B7AB1E00068F8D /* UIImageView+Radius.h */,
+				7A1BDD3021B7AB1E00068F8D /* UIImageView+Radius.m */,
+				7A1BDD3221B7AED700068F8D /* CreateHelper.h */,
+				7A1BDD3321B7AED700068F8D /* CreateHelper.m */,
 				7A1BDD0321B7AAFA00068F8D /* Main.storyboard */,
 				7A1BDD0621B7AAFC00068F8D /* Assets.xcassets */,
 				7A1BDD0821B7AAFC00068F8D /* LaunchScreen.storyboard */,
@@ -139,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1BDD2621B7AAFC00068F8D /* Build configuration list for PBXNativeTarget "ConreRadius" */;
 			buildPhases = (
+				EE1EC4ACAB8F1AEB24835FBB /* [CP] Check Pods Manifest.lock */,
 				7A1BDCF621B7AAFA00068F8D /* Sources */,
 				7A1BDCF721B7AAFA00068F8D /* Frameworks */,
 				7A1BDCF821B7AAFA00068F8D /* Resources */,
+				655B2FC6E186D9F8BCF2F61B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1BDD0A21B7AAFC00068F8D /* LaunchScreen.storyboard in Resources */,
+				7A0611AE21B8CC5B00029DCA /* example2.jpg in Resources */,
 				7A1BDD0721B7AAFC00068F8D /* Assets.xcassets in Resources */,
+				7A1BDD3621B7B0C300068F8D /* APP ICON doctor-60@2x.png in Resources */,
+				7A0611AD21B8CC5B00029DCA /* example4.jpg in Resources */,
 				7A1BDD0521B7AAFA00068F8D /* Main.storyboard in Resources */,
+				7A0611AC21B8CC5B00029DCA /* example1.jpg in Resources */,
+				7A0611AB21B8CC5B00029DCA /* example3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +318,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		655B2FC6E186D9F8BCF2F61B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConreRadius/Pods-ConreRadius-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConreRadius/Pods-ConreRadius-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1EC4ACAB8F1AEB24835FBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConreRadius-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A1BDCF621B7AAFA00068F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A1BDD0221B7AAFA00068F8D /* ViewController.m in Sources */,
+				7A0611A621B8CB0C00029DCA /* TableViewCell.m in Sources */,
+				7A1BDD3421B7AED700068F8D /* CreateHelper.m in Sources */,
 				7A1BDD0D21B7AAFC00068F8D /* main.m in Sources */,
+				7A1BDD3121B7AB1E00068F8D /* UIImageView+Radius.m in Sources */,
 				7A1BDCFF21B7AAFA00068F8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,14 +536,13 @@
 		};
 		7A1BDD2721B7AAFC00068F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00689C51CEAF14DB97FAF0EE /* Pods-ConreRadius.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V4B8P899G;
 				INFOPLIST_FILE = ConreRadius/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,14 +551,13 @@
 		};
 		7A1BDD2821B7AAFC00068F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5817EB45D5593FA2CB837116 /* Pods-ConreRadius.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V4B8P899G;
 				INFOPLIST_FILE = ConreRadius/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,11 +570,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConreRadiusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadiusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,11 +584,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConreRadiusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadiusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,11 +597,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConreRadiusUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadiusUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,11 +610,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConreRadiusUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.lwx.animation.ConreRadiusUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

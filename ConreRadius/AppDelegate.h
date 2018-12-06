@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImageView+Radius.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
